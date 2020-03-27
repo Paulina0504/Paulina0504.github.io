@@ -4,31 +4,32 @@
 <meta charset="utf-8">
 <title>Seriale i filmy na nudę</title>
 <style>
-body { background-image: url(https://cdn.pixabay.com/photo/2017/02/18/01/26/background-2076334__340.jpg); background-repeat: no-repeat; 
-
-background-size: cover; line-height: 30px}
+body { background-image: url(https://cdn.pixabay.com/photo/2017/02/18/01/26/background-2076334__340.jpg); background-repeat: no-repeat; background-size: cover; line-height: 30px}
 #początek {text-align: center; font-size: 3em; font-family: "Broadway",monospace; padding: 80px; color:black;}
 .wstęp {font-size: 20px;}
 .kolorek {color: DodgerBlue;}
-#tłobiałechyba {background-color:white; width: 45%; border: 1px solid grey; padding-top: 8px; padding-left: 8px;margin:auto;}
+#tłobiałechyba {background-color:white; width:45%; border: 1px solid grey; padding: 10px; float:left; margin-left:3%;}
 #seriale {background-color: white; width: 20%; font-size: 18px;  float: left; margin-left: 2px; padding: 10px; border: 1px solid grey; padding: 10px;}
-.nazwa {font-size: 20px; color:DodgerBlue; font-weight: bold;}
+#nazwa1 {font-size: 20px; color:DodgerBlue; font-weight: bold; text-decoration:none;}
+#nazwa2 {font-size: 20px; color:DodgerBlue; font-weight: bold;text-decoration:none;}
 #zdjęcie {border: 2px solid grey;}
 .nowy{font-size:29px;}
 #nazwyseriali {font-size:22px; border-bottom-style:dotted; border-bottom-weight:2px; border-bottom-color:grey;margin-bottom:60px; line-height:2;}
 h1{font-size:40px; color:DodgerBlue; font-weight: bold;}
 ul{font-size:20px; text-align:left}
 .zdj{text-align:center;}
-a:link{color:black;}
-a:hover{background-color:grey;}
-a:visited{color:black;}
-
+#koniec{ float: right; width: 22%; padding: 12px;  font-size: 25px; background-color: white; border: 1px solid grey;}
+.zdj{margin-right:2px;margin-left:2px;}
+#ss {float:right;}
+a:link, a:visited {color: black;}
+a:hover{color:black; background-color:PaleTurquoise;}
+body {line-height: 1,5}
 
 </style>
 </head>
 <body>
 <h1 id="początek">Seriale i filmy, które polecam</h1>
-<p id="seriale"><strong><span class="nazwa"><a href="Seriale">Seriale</a></span></strong><br>
+<p id="seriale"><strong><span id="nazwa1"><a href="https://paulina0504.github.io/seriale.html">Seriale</a></span></strong><br>
 - Riverdale<br>
 - Stranger Things<br>
 - The 100<br>
@@ -42,7 +43,7 @@ a:visited{color:black;}
 
 <br>
 <br>
-<span class="nazwa">Filmy</span><br>
+  <span id="nazwa2"><a href="">Filmy</a></span><br>
 - Do wszystkich chłoców, których kochałam<br>
 - The Kissing Both<br>
 - Zanim odejdę<br>
@@ -68,21 +69,15 @@ a:visited{color:black;}
 <li><a href=#spinning>Spinning Out</a></li><br></ol>
 
 
-<div class="zdj"><h1 id="riverdale">1. Riverdale</h1>
+<h1 id="riverdale">1. Riverdale</h1>
 
-<img src="https://gfx.antyradio.pl/var/antyradio/storage/images/film/seriale/zaginiecie-jugheada-i-atak-na-betty-w-zapowiedzi-4-sezonu-riverdale-
-
-35139/10745469-1-pol-PL/Zaginiecie-Jugheada-i-atak-na-Betty-w-zapowiedzi-4.-sezonu-Riverdale_article.jpg" width=90%}
+<img src="https://gfx.antyradio.pl/var/antyradio/storage/images/film/seriale/zaginiecie-jugheada-i-atak-na-betty-w-zapowiedzi-4-sezonu-riverdale-35139/10745469-1-pol-PL/Zaginiecie-Jugheada-i-atak-na-Betty-w-zapowiedzi-4.-sezonu-Riverdale_article.jpg" width=90%}
 <br>
 <p><ul><li>Lata emisji: 2017-...</li>
 <li>Liczba sezonów: 4 (73 odcinki)</li>
 <li>Czas trwania: 42 min</li>
 <li>Gatunek: detektywistyczny</li>
-<li>Akcja serialu ma miejsce w małym miasteczku Riverdale, w którym przyjaciele: Betty, Jughead, Archie i Veronica muszą zmierzyć się z różnymi 
-
-zagadkami dotyczącymi m.in. tajemniczych morderst. Wiele osób twierdzi, że z każdym sezonem serial staje się gorszy, jednak według mnie jest 
-
-warty obejrzenia, nawet jeśli tylko dla wątku Betty i Jugheada.</li></ul></p> 
+<li>Akcja serialu ma miejsce w małym miasteczku Riverdale, w którym przyjaciele: Betty, Jughead, Archie i Veronica muszą zmierzyć się z różnymi zagadkami dotyczącymi m.in. tajemniczych morderst. Wiele osób twierdzi, że z każdym sezonem serial staje się gorszy, jednak według mnie jest warty obejrzenia, nawet jeśli tylko dla wątku Betty i Jugheada.</li></ul></p> 
 
 <h1 id="strangerthings">2. Stranger Things</h1>
 <img src="https://images4.alphacoders.com/982/thumb-1920-982360.jpg" width=90%}
@@ -91,9 +86,7 @@ warty obejrzenia, nawet jeśli tylko dla wątku Betty i Jugheada.</li></ul></p>
 <li>Liczba sezonów: 3 (25 odcinków)</li>
 <li>Czas trwania: ok. 1 h</li>
 <li>Gatunek: horror, science-fiction</li>
-<li>Tym razem przenosimy się do lat 80. W miasteczku znika chłopiec. Jednak jego zaginięcie nie jest takie jak wszystkie, ponieważ rozpoczyna serię 
-
-dziwnych zdarzeń powiązanych z tajemniczymi siłami.</li></ul>
+<li>Tym razem przenosimy się do lat 80. W miasteczku znika chłopiec. Jednak jego zaginięcie nie jest takie jak wszystkie, ponieważ rozpoczyna serię dziwnych zdarzeń powiązanych z tajemniczymi siłami.</li></ul>
 
 <h1 id="the100">3. The 100</h1>
 <img src="https://www.tapeteos.pl/data/media/965/big/the_100_001.jpg" width=90%}
@@ -102,16 +95,10 @@ dziwnych zdarzeń powiązanych z tajemniczymi siłami.</li></ul>
 <li>Liczba sezonów: 6 (84 odcinki)</li>
 <li>Czas trwania: 42 min</li>
 <li>Gatunek: science-fiction</li>
-<li>Przyszłość. Ziemię niszczy nuklearna siła, lecz niektórym udaje się uciec. Zamieszkują w stacji kosmicznej, jednak zapas tlenu zaczyna nie 
-
-wystarczać dla wszystkich. 100 młodzieży zostaje wysłana na Ziemię, żeby sprawdzić czy można na nią wrócić. Po wylądowaniu okazuje się jednak, 
-
-że nie są na niej sami...</li></ul>
+<li>Przyszłość. Ziemię niszczy nuklearna siła, lecz niektórym udaje się uciec. Zamieszkują w stacji kosmicznej, jednak zapas tlenu zaczyna nie wystarczać dla wszystkich. 100 młodzieży zostaje wysłana na Ziemię, żeby sprawdzić czy można na nią wrócić. Po wylądowaniu okazuje się jednak, że nie są na niej sami...</li></ul>
 
 <h1 id="trinkets">4. Trinkets</h1>
-<img src="https://1.bp.blogspot.com/-WT69F7QpVX8/XSss1u5sKEI/AAAAAAAADxQ/FmjK-fs29lsqYen99dc1KO-
-
-_qsYjAqWvgCLcBGAs/s1600/trinkets.jpg"width=90%}<br>
+<img src="https://1.bp.blogspot.com/-WT69F7QpVX8/XSss1u5sKEI/AAAAAAAADxQ/FmjK-fs29lsqYen99dc1KO-_qsYjAqWvgCLcBGAs/s1600/trinkets.jpg"width=90%}<br>
 <ul><li>Lata emisji: 2019</li>
 <li>Liczba sezonów: 1 (10 odcinków)</li>
 <li>Czas trwania: ok. 25 min</li>
@@ -124,9 +111,7 @@ _qsYjAqWvgCLcBGAs/s1600/trinkets.jpg"width=90%}<br>
 <li>Liczba sezonów: 1 (8 odcinków)</li>
 <li>Czas trwania: ok. 45 min</li>
 <li>Gatunek: kryminał</li>
-<li>W mieście pojawia się nieznajoma, która zna różne tajemnice mieszkańców m.in. Adama Price'a, którego żona nagle znika. Rozpoczyna 
-
-poszukiwania i znajduje trop młodej kobiety, która wyjawiła mu sekret żony, po którym zniknęła.</li></ul>
+<li>W mieście pojawia się nieznajoma, która zna różne tajemnice mieszkańców m.in. Adama Price'a, którego żona nagle znika. Rozpoczyna poszukiwania i znajduje trop młodej kobiety, która wyjawiła mu sekret żony, po którym zniknęła.</li></ul>
 
 <h1 id="atypowy">6. Atypowy</h1>
 <img src="https://planetahiedra.com/wp-content/uploads/2017/08/ATYPICAL_POUSTA2-696x397.jpg "width=90%}<br>
@@ -142,9 +127,7 @@ poszukiwania i znajduje trop młodej kobiety, która wyjawiła mu sekret żony, 
 <li>Liczba sezonów: 3 (26 odcinków)</li>
 <li>Czas trwania: ok. 45 min</li>
 <li>Gatunek: science-fiction</li>
-<li>Niedaleka przyszłośc. Świat dzieli się na slumsy i bogatą Wyspę, na którą może się dostać ten, który zaliczy test, do którego może podejść w 
-
-wieku 20 lat. Jednak nie wszystko jest tak piękne jak się wydaje...</li></ul>
+<li>Niedaleka przyszłośc. Świat dzieli się na slumsy i bogatą Wyspę, na którą może się dostać ten, który zaliczy test, do którego może podejść w wieku 20 lat. Jednak nie wszystko jest tak piękne jak się wydaje...</li></ul>
 
 <h1 id="sabrina">8. Chilling Adventures of Sabrina</h1>
 <img src="https://i.ytimg.com/vi/3aeDbGU13FI/maxresdefault.jpg"width=90%}<br>
@@ -155,16 +138,12 @@ wieku 20 lat. Jednak nie wszystko jest tak piękne jak się wydaje...</li></ul>
 <li>Opowieść o nastoletniej czarownicy Sabrinie Spellman, która musi wybrać między życiem w świecie ludzi a światem czarownic.</li></ul>
 
 <h1 id="locke">9. Locke&Key</h1>
-<img src="https://ocs-pl.oktawave.com/v1/AUTH_2887234e-384a-4873-8bc5-405211db13a2/splay/2019/12/locke-and-key-nowy-serial-
-
-netflix.png"width=90%}<br>
+<img src="https://ocs-pl.oktawave.com/v1/AUTH_2887234e-384a-4873-8bc5-405211db13a2/splay/2019/12/locke-and-key-nowy-serial-netflix.png"width=90%}<br>
 <ul><li>Lata emisji: 2020</li>
 <li>Liczba sezonów: 1 (10 odcinków)</li>
 <li>Czas trwania: ok. 45 min</li>
 <li>Gatunek: dramat, science-fiction</li>
-<li>Rodzina Locke po śmierci ojca przeprowadza się do tajemniczego domu, wktórym dzieci odnajdują magiczne klucze, które schował ich ojciec. 
-
-Niestety pojawia się kobieta, która chce za wszelką cenę je odzyskać.</li></ul>
+<li>Rodzina Locke po śmierci ojca przeprowadza się do tajemniczego domu, wktórym dzieci odnajdują magiczne klucze, które schował ich ojciec. Niestety pojawia się kobieta, która chce za wszelką cenę je odzyskać.</li></ul>
 
 <h1 id="spinning">10. Spinning Out</h1>
 <img src="https://www.serialowa.pl/wpr/wp-content/uploads/2020/02/spinning-out-czolo.jpg"width=90%}<br>
@@ -172,7 +151,13 @@ Niestety pojawia się kobieta, która chce za wszelką cenę je odzyskać.</li><
 <li>Liczba sezonów: 1 (10 odcinków)</li>
 <li>Czas trwania: ok. 50 min</li>
 <li>Gatunek: dramat</li>
-<li>Historia łyżwiarki figurowej, która musi zmagac się z problemami rodzinnymi i psychicznymi.</li></ul></div>
+<li>Historia łyżwiarki figurowej, która musi zmagac się z problemami rodzinnymi i psychicznymi.</li></ul>
+</div>
 
 
-
+<p id="koniec">
+<span class="kolorek"><strong><a href="">Galeria zdjęć</a></strong></span><br><br>
+<img class="zdj" src="https://www.syfy.com/sites/syfy/files/2019/07/stranger-things-eleven-max.jpg" width=55%>
+<img id="ss" src="https://i.pinimg.com/736x/d2/15/44/d21544f4fc31cf28028de6d90566bd5f.jpg" width=40%>
+<img class="zdj"src="https://www.tapeciarnia.pl/tapety/normalne/tapeta-aktorzy-z-obsady-serialu-riverdale.jpg" width=55%>
+</p>
